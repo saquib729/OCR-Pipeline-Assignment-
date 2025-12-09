@@ -1,4 +1,4 @@
-# 🧾 OCR Based Medical Document Text Extraction & PII Redaction
+# OCR Based Medical Document Text Extraction & PII Redaction
 
 This project extracts text from scanned medical documents (including handwritten notes) and automatically detects and redacts **Personally Identifiable Information (PII)** such as Patient Name, IPD Number, UHID, Age, Sex, Phone Number, Dates, etc.  
 
@@ -7,7 +7,7 @@ This project ensures secure and privacy–preserving conversion of physical heal
 
 ---
 
-## 🚀 Features
+## Features
 
 - Extracts text from medical forms and case sheets
 - Supports both printed and handwritten text
@@ -22,7 +22,7 @@ This project ensures secure and privacy–preserving conversion of physical heal
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 | Technology | Purpose |
 |-----------|---------|
@@ -34,7 +34,7 @@ This project ensures secure and privacy–preserving conversion of physical heal
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 project/
 ├── easy_ocr_pii.py # Main Script
 ├── images/ # Input medical images
@@ -42,23 +42,20 @@ project/
 
 ---
 
-## ⚙️ How to Run the Project
+## How to Run the Project
 
-### ✔️ Step 1: Install Dependencies using requirements.txt
-✔️ Step 2: Add Input Files
-Place your .jpg / .jpeg / .png documents in the images folder.
-
-✔️ Step 3: Run the Script
-python easy_ocr_pii.py
-
-✔️ Step 4: Check Output
+ Step 1: Install Dependencies using requirements.txt
+ Step 2: Add Input Files
+ Place your .jpg / .jpeg / .png documents in the images folder.
+ Step 3: Run the Script
+ python easy_ocr_pii.py
+ Step 4: Check Output
 
 Redacted results will be in the outputs folder:
 
-Output File	Description
+## Output File	Description
 *_text.txt	Extracted text file
 *_pii.txt	Detected PII report
 *_redacted.jpg	Redacted image with blacked-out PII
 
-## 📂 Project Structure
 
